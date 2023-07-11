@@ -2,11 +2,27 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
   "heroes": [
+    {
+      "id": "dc-batman",
+      "superhero": "Batman",
+      "publisher": "DC Comics",
+      "alter_ego": "Bruce Wayne",
+      "first_appearance": "Detective Comics #27",
+      "characters": "Bruce Wayne"
+    },
+    {
+      "id": "dc-superman",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
+    },
     {
       "id": "dc-flash",
       "superhero": "Flash",
@@ -70,6 +86,14 @@
       "alter_ego": "Dinah Drake",
       "first_appearance": "Flash Comics #86",
       "characters": "Dinah Drake, Dinah Lance"
+    },
+    {
+      "id": "marvel-spider",
+      "superhero": "Spider Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Peter Parker",
+      "first_appearance": "Amazing Fantasy #15",
+      "characters": "Peter Parker"
     },
     {
       "id": "marvel-captain",
@@ -142,15 +166,6 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "XZvwOdf",
-      "superhero": "Ash Ketchup",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Ash",
-      "first_appearance": "Pokemon 1990",
-      "characters": "Ash",
-      "alt_img": "https://uploads-ssl.webflow.com/63851d467dc151a9f46a992b/638630e0b32ca1abefa9eb80_6256e4322354f3d35b2a268a_ash%2520ketchum%2520pose.jpeg"
     }
   ]
 }
