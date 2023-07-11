@@ -27,4 +27,9 @@ export class HeroesService {
       )
   }
 
+  // metodo que usaremos para hacer las sugerencias segun las letras que el usuario vaya escribiendo
+  // a la hora de buscar un heroe
+  getSuggestions(query: string): Observable<Hero[]> {
+    return this.http.get<Hero[]>(`${this.baseUrl}/heroes?q=${query}&_limit=6`)
+  }
 }
