@@ -23,7 +23,6 @@ export class SearchPageComponent implements OnInit {
     throw new Error('Method not implemented.');
   }
 
-
   // metodo que usaremos para ir agregando busquedas a heroes
   searchHero() {
     const value: string = this.searchInput.value || '';

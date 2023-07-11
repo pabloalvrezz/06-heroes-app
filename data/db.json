@@ -13,7 +13,9 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne",
+      "firstName": "Freddy",
+      "lastName": "Meyers"
     },
     {
       "id": "dc-superman",
@@ -166,6 +168,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "XZvwOdf",
+      "superhero": "Ash Ketchup",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Ash",
+      "first_appearance": "Pokemon 1990",
+      "characters": "Ash",
+      "alt_img": "https://uploads-ssl.webflow.com/63851d467dc151a9f46a992b/638630e0b32ca1abefa9eb80_6256e4322354f3d35b2a268a_ash%2520ketchum%2520pose.jpeg"
     }
   ]
 }
