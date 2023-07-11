@@ -6,11 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class NewPageComponent implements OnInit {
+export class NewPageComponent {
 
-  constructor() { }
+  public publishers = [
+    {
+      id: 'DC Comics',
+      value: 'DC-Comics'
+    },
 
-  ngOnInit(): void {
-  }
-
+    {
+      id: 'Marvel Comics',
+      value: 'Marvel-Comics'
+    },
+  ];
 }
